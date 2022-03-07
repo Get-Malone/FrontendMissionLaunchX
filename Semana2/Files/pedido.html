@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="Index.css">
+    <title>Mi pedido</title>
+</head>
+
+<header>
+    <img src="./LogoPasteleria.png" alt="Delicias pasteleria" width= "170px" height= "170px" >
+
+    <h1>Crea el pastel de tus sueños</h1>
+
+    <nav>
+    
+        <div class="topnav">
+            <a href="./index.html">Inicio</a>
+            <a href="./pedido.html">Pide algo</a>
+            <a href="./equipo.html">Para nuestro equipo</a>
+        </div>
+        
+        </nav>
+
+
+</header>
+
+<body>
+
+<section>
+
+    <div class="columns">
+        <form action="pedido.js">
+<h3>Contacto</h3>
+    <label for="Nombre1"> Nombre</label>
+    <br> <input type="text"  id="Nombre1" name="Nombre1"> <br><br>
+    <label for="Apellido1"> Apellido</label>
+    <br> <input type="text"  id="Apellido1" name="Apellido1"><br><br>
+    <label for="correo1">Correo</label><br>
+    <input type="email" placeholder="@" id="correo1" name="correo1"><br><br>
+    <label for="numero1">Celular</label><br>
+    <input type="number" placeholder="#" id="numero1" name="numero1"><br><br>
+<hr>
+
+<h3>Pedido</h3>
+    <label for="tipopastel">Elige tu pastel Favorito</label><br>
+    <input list="tipopastel">
+    <datalist id="tipopastel">
+        <option value="Tiramisú: $999 MXN">     </option>
+        <option value="Tres leches: $599 MXN">      </option>
+        <option value="Tarta de Santiago: $899 MXN"> </option>
+        <option value="Pan de elote: $299 MXN">    </option>
+        <option value="Cheesecake de Nutella: $499 MXN">   </option>
+        <option value="Tarta de hojaldre: $399 MXN">    </option>
+        <option value="Tarta de limón: $499 MXN">    </option>
+        <option value="Tarta de chocolate: $499 MXN">    </option>
+        <option value="Tarta de fresa: $499 MXN">    </option>
+        <option value="Tarta de cajeta: $499 MXN">    </option>
+    </datalist>
+
+    <br><br>
+
+    <label for="tiposabor">Elijamos tus sabores</label><br>
+    <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+    <label for="Fresa">Fresa: $99 pesos</label><br>
+    <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+    <label for="Chocolate">Chocolate: $99 pesos</label><br>
+    <input type="checkbox" id="Cajeta" name="Cajeta" value="Cajeta">
+    <label for="Cajeta">Cajeta: $99 pesos</label><br>
+    <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+    <label for="Vainilla">Vainilla: $99 pesos</label><br>
+    <input type="checkbox" id="Queso" name="Queso" value="Queso">
+    <label for="Queso">Queso: $99 pesos</label><br>
+    <input type="checkbox" id="Frambuesa" name="Frambuesa" value="Frambuesa">
+    <label for="Frambuesa">Frambuesa: $99 pesos</label><br><br>
+
+    <label for="tipoadorno">Elige tu adorno extra</label><br>
+        <input type="checkbox" id="hulk" name="hulk" value="hulk">
+        <label for="hulk">Imagen de superheroe: $299 pesos</label><br>
+        <input type="checkbox" id="velas" name="velas" value="velas">
+        <label for="velas">Velitas: $49 pesos</label><br>
+        <input type="checkbox" id="geometricas" name="geometricas" value="geometricas">
+        <label for="geometricas">Formas geométricas: $99 pesos</label><br>
+        <input type="checkbox" id="frutas" name="frutas" value="frutas">
+        <label for="frutas">Frutas: $199 pesos"</label><br>
+        <input type="checkbox" id="frutaNata" name="frutaNata" value="frutaNata">
+        <label for="frutaNata">Frutas con nata de leche: $299 pesos</label><br>
+
+    <label for="Notas">Notas del Pedido</label><br>
+        <textarea name="notas" id="notas" cols="30" rows="4"></textarea>
+        <input type="reset">
+        <input type="submit">
+
+            <br><br>
+        </form>
+    </div>
+
+</section>
+
+    <footer>
+        <p>San Mateo Atenco, MX</p>
+        <br>
+        <p>Delicias Pasteleria 2022</p>
+    </footer>
+
+</body>
+
+</html>
