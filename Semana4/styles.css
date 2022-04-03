@@ -24,7 +24,7 @@ input {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    background-color: mediumaquamarine;
+    background-color: rgb(243, 10, 10);
     border: 1px solid black;
     border-radius: 20%;
 }
@@ -53,4 +53,9 @@ input {
 .poke-img {
     width: 180px;
     border-radius: 20%;
+}
+
+.poke-img-gamepad {
+    width: 300px;
+    border-radius: 0%;
 }
